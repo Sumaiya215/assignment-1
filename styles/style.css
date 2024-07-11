@@ -147,3 +147,58 @@ main{
     color:black;
     font-weight:700;
 }
+
+.bg-image{
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.s-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.s-des{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+footer input textarea{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    margin: 0px 16px;
+    padding: 40px 20px 40px 20px;
+}
+
+.submit-button{
+    background-color: white;
+    font-weight: 700;
+    padding: 15px 20px 15px 20px;
+    margin:20px 5px;
+    border: none;
+}
+
+.support-form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
